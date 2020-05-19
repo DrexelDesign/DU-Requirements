@@ -1,0 +1,61 @@
+/* =============
+    Kit
+============= */
+#kit {
+    display: grid;
+    grid-template-columns: 10px auto 10px;
+    grid-template-areas: ". kit .";
+    padding: 50px 0;
+    @include md {
+        grid-template-columns: auto 80% auto;
+    }
+    @include lg {
+        grid-template-columns: auto 60% auto;
+    }
+    @include xl {
+        grid-template-columns: auto 50% auto;
+    }
+
+    > div {
+        grid-area: kit;
+
+
+        #title {
+            h1 {
+                font-size: rem-calc(35);
+                font-weight: 300;
+                margin-bottom: 10px;
+                color: $turquoise;
+            }
+        }
+
+        #supply-hero{
+          background-image: url('../img/supplies/supplies.jpg');
+          background-size: cover;
+          height: 400px;
+          background-position: center;
+            margin-bottom: 10px;
+        }
+
+
+        figure {
+            img {
+                width: 100%;
+            }
+        }
+
+        section {
+            article {
+                margin: 20px 0;
+                background-color: $red;
+                color: $white;
+                padding: 10px;
+
+                h3 {
+                    font-weight: 600;
+                    font-size: rem-calc(16);
+                }
+            }
+        }
+    }
+}

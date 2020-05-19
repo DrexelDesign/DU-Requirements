@@ -1,0 +1,74 @@
+/* =============
+    iPad & Camera
+============= */
+#ipad-camera {
+    display: grid;
+    grid-template-areas: ". ipad-camera .";
+    grid-template-columns: 10px auto 10px;
+    padding: 50px 0;
+    @include xl {
+        grid-template-columns: auto 1200px auto;
+    }
+
+    > div {
+        grid-area: ipad-camera;
+        @include md {
+            display: grid;
+            grid-gap: 30px;
+            grid-template-areas: "ipad camera";
+            grid-template-columns: repeat(2, 1fr);
+            text-align: justify;
+        }
+        @include lg {
+            grid-gap: 10vw;
+        }
+
+        figure {
+            grid-area: ipad-icon;
+            margin-bottom: 10px;
+            text-align: center;
+            @include md {
+                align-items: center;
+                display: flex;
+                justify-content: center;
+            }
+
+            img {
+                width: 15%;
+                @include md {
+                    height: 100px;
+                }
+            }
+        }
+
+        section {
+            grid-area: ipad-info;
+
+            h1 {
+                color: $turquoise;
+                font-size: rem-calc(35);
+                font-weight: 300;
+                margin-bottom: 10px;
+                @include md {
+                    text-align: center;
+                }
+            }
+
+            p {
+                line-height: rem-calc(25);
+            }
+        }
+
+        #ipad {
+            grid-area: ipad;
+        }
+
+        #camera {
+            grid-area: camera;
+            margin-top: 50px;
+            @include md {
+                margin-top: 0;
+            }
+        }
+    }
+}

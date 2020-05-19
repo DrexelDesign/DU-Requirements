@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="557px" height="145px" viewBox="0 0 557 145" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 55.2 (78181) - https://sketchapp.com -->
+    <title>mouseKeyboard</title>
+    <desc>Created with Sketch.</desc>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Tablet" transform="translate(-311.000000, -401.000000)">
+            <g id="mouseKeyboard" transform="translate(311.000000, 401.000000)">
+                <rect id="Rectangle" stroke="#000000" stroke-width="6.5" x="3.25" y="3.25" width="83.5" height="138.5" rx="41.75"></rect>
+                <ellipse id="Oval" fill="#D8D8D8" cx="45.5" cy="121" rx="6.5" ry="6"></ellipse>
+                <rect id="Rectangle" stroke="#000000" stroke-width="6.5" x="202.25" y="9.25" width="351.5" height="125.5"></rect>
+                <rect id="Rectangle" stroke="#D8D8D8" stroke-width="4" x="269" y="100" width="186" height="22"></rect>
+                <rect id="Rectangle-Copy" stroke="#D8D8D8" stroke-width="4" x="467" y="100" width="48" height="22"></rect>
+                <rect id="Rectangle-Copy-2" stroke="#D8D8D8" stroke-width="4" x="222" y="100" width="35" height="22"></rect>
+                <rect id="Rectangle-Copy-3" stroke="#D8D8D8" stroke-width="4" x="222" y="66" width="22" height="22"></rect>
+                <rect id="Rectangle-Copy-4" stroke="#D8D8D8" stroke-width="4" x="256" y="66" width="22" height="22"></rect>
+                <rect id="Rectangle-Copy-5" stroke="#D8D8D8" stroke-width="4" x="290" y="66" width="22" height="22"></rect>
+                <rect id="Rectangle-Copy-8" stroke="#D8D8D8" stroke-width="4" x="324" y="66" width="22" height="22"></rect>
+                <rect id="Rectangle-Copy-7" stroke="#D8D8D8" stroke-width="4" x="358" y="66" width="22" height="22"></rect>
+                <rect id="Rectangle-Copy-6" stroke="#D8D8D8" stroke-width="4" x="392" y="66" width="22" height="22"></rect>
+                <rect id="Rectangle-Copy-11" stroke="#D8D8D8" stroke-width="4" x="426" y="66" width="22" height="22"></rect>
+                <rect id="Rectangle-Copy-10" stroke="#D8D8D8" stroke-width="4" x="460" y="66" width="22" height="22"></rect>
+                <rect id="Rectangle-Copy-9" stroke="#D8D8D8" stroke-width="4" x="494" y="66" width="22" height="22"></rect>
+                <rect id="Rectangle-Copy-20" stroke="#D8D8D8" stroke-width="4" x="222" y="32" width="22" height="22"></rect>
+                <rect id="Rectangle-Copy-19" stroke="#D8D8D8" stroke-width="4" x="256" y="32" width="22" height="22"></rect>
+                <rect id="Rectangle-Copy-18" stroke="#D8D8D8" stroke-width="4" x="290" y="32" width="22" height="22"></rect>
+                <rect id="Rectangle-Copy-17" stroke="#D8D8D8" stroke-width="4" x="324" y="32" width="22" height="22"></rect>
+                <rect id="Rectangle-Copy-16" stroke="#D8D8D8" stroke-width="4" x="358" y="32" width="22" height="22"></rect>
+                <rect id="Rectangle-Copy-15" stroke="#D8D8D8" stroke-width="4" x="392" y="32" width="22" height="22"></rect>
+                <rect id="Rectangle-Copy-14" stroke="#D8D8D8" stroke-width="4" x="426" y="32" width="22" height="22"></rect>
+                <rect id="Rectangle-Copy-13" stroke="#D8D8D8" stroke-width="4" x="460" y="32" width="22" height="22"></rect>
+                <rect id="Rectangle-Copy-12" stroke="#D8D8D8" stroke-width="4" x="494" y="32" width="22" height="22"></rect>
+                <polygon id="+" fill="#010101" fill-rule="nonzero" transform="translate(143.500000, 73.500000) scale(-1, 1) translate(-143.500000, -73.500000) " points="140.081571 76.9929577 128 76.9929577 128 70.1629779 140.081571 70.1629779 140.081571 58 146.918429 58 146.918429 70.1629779 159 70.1629779 159 76.9929577 146.918429 76.9929577 146.918429 89 140.081571 89"></polygon>
+                <g id="mouse"></g>
+                <g id="keyboard" transform="translate(199.000000, 6.000000)"></g>
+            </g>
+        </g>
+    </g>
+</svg>

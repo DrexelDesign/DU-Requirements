@@ -1,0 +1,143 @@
+/* =============
+    Requirements
+============= */
+#requirements {
+    padding: 50px 0;
+    display: grid;
+    grid-template-columns: 10px auto 10px;
+    grid-template-areas: ". requirement-content .";
+    @include xl {
+        grid-template-columns: auto 1200px auto;
+    }
+
+    div {
+        grid-area: requirement-content;
+
+        #title {
+            margin-bottom: 20px;
+
+            h1 {
+                font-size: rem-calc(35);
+                font-weight: 300;
+                margin-bottom: 10px;
+                color: $turquoise;
+            }
+
+            span{
+                font-weight: 700;
+            }
+        }
+
+        article {
+            grid-area: mac-container;
+            margin-top: 20px;
+
+            .mac {
+                article {
+                    @include md {
+                        padding: 0 10%;
+                    }
+
+                    h2 {
+                        font-size: rem-calc(23);
+                        margin-bottom: 10px;
+                        font-weight: 600;
+                    }
+
+                    p {
+                        font-size: rem-calc(18);
+                        margin-bottom: 15px;
+                        @include md {
+                            margin-bottom: 20px;
+                        }
+                    }
+                }
+
+                .mac-specs {
+                    margin-top: 20px;
+
+                    @include md {
+                        display: grid;
+                        grid-template-columns: repeat(2, 1fr);
+                    }
+
+                    figure {
+                        display: flex;
+                        align-items: center;
+                        justify-content: center;
+
+                        img {
+                            width: 100%;
+                            @include md {
+                                width: 70%;
+                            }
+                            @include xl {
+                                width: 60%;
+                            }
+                        }
+                    }
+
+                    ul {
+                        padding: 10px;
+                        background-color: $platinum;
+                        @include md {
+                            padding: 20px;
+                        }
+
+                        li {
+                            margin-bottom: 10px;
+                            @include md {
+                                font-weight: 300;
+
+                                span {
+                                    font-weight: 600;
+                                }
+                            }
+                        }
+                    }
+                }
+
+                #faculty-pick {
+
+                    color: $white;
+                    padding: 10px;
+                    display: grid;
+                    grid-template-columns: auto 95% auto;
+                    grid-template-areas: ". fp .";
+                    margin-top: 20px;
+
+                    @include lg{
+                        grid-template-columns: auto 60% auto;
+                    }
+
+                    > div {
+                        grid-area: fp;
+                        text-align: center;
+                        background-color: $red;
+                        padding: 10px;
+
+                        @include lg{
+                            padding: 20px;
+                        }
+                    }
+                }
+            }
+        }
+
+        #mac-15 {
+            background-color: $mintCream;
+            padding: 20px 10px;
+            grid-area: mac-15;
+
+            p:last-of-type {
+                font-weight: 700;
+                font-size: rem-calc(15);
+            }
+        }
+
+        #mac-13 {
+            grid-area: mac-13;
+            margin-top: 50px;
+        }
+    }
+}

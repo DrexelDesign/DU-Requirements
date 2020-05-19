@@ -1,0 +1,123 @@
+/* =============
+    Software
+============= */
+#software {
+    display: grid;
+    grid-template-columns: 10px auto 10px;
+    grid-template-areas: ". software .";
+    padding: 50px 0;
+    @include xl {
+        grid-template-columns: auto 1200px auto;
+    }
+
+    > div {
+        grid-area: software;
+        @include md {
+            display: grid;
+            grid-template-columns: repeat(2, 1fr);
+            grid-template-areas: "title title" "adobe ms" "one other";
+            grid-gap: 30px;
+        }
+
+        #title {
+            @include md {
+                grid-area: title;
+                text-align: center;
+            }
+
+            h1 {
+                font-size: rem-calc(35);
+                font-weight: 300;
+                margin-bottom: 10px;
+                color: $turquoise;
+            }
+        }
+
+        .software {
+            padding: 30px 0;
+            border-bottom: 1px solid $turquoise;
+            @include md {
+                border: none;
+                text-align: center;
+            }
+
+            section {
+                text-align: center;
+
+                img {
+                    width: 50px;
+                }
+
+                #ms-logo {
+                    width: 150px;
+                }
+
+                h2 {
+                    font-size: rem-calc(22);
+                    margin-bottom: 10px;
+                    font-weight: 600;
+                }
+
+                ul {
+                    display: flex;
+                    justify-content: space-around;
+                }
+            }
+
+            span {
+                font-weight: 800;
+            }
+
+            .software-links {
+                i {
+                    margin-left: 5px;
+                }
+            }
+
+            .link-container {
+                @include xl {
+                    display: flex;
+                    justify-content: center;
+
+                    a {
+                        margin-left: 20px;
+                    }
+                }
+            }
+
+            article {
+                margin-top: 10px;
+                text-align: center;
+                font-size: rem-calc(12);
+            }
+        }
+
+        .software:last-of-type {
+            border: none;
+        }
+
+        #adobe {
+            @include md {
+                grid-area: adobe;
+            }
+        }
+
+        #ms {
+            @include md {
+                grid-area: ms;
+            }
+        }
+
+        #onedrive {
+            @include md {
+                grid-area: one;
+            }
+        }
+
+        #other-software {
+            @include md {
+                grid-area: other;
+            }
+        }
+    }
+}

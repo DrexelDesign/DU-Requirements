@@ -1,0 +1,32 @@
+/* =============
+    Hero
+============= */
+#hero {
+    background-image: url("../img/hero/hero.jpg");
+    background-size: cover;
+    background-position: center bottom;
+    height: 60vh;
+    display: flex;
+    align-items: flex-end;
+    padding: 0 10px 5vh;
+    @include lg {
+        background-position: center top;
+    }
+
+    h1 {
+        color: $white;
+        font-size: rem-calc(40);
+    }
+
+    h1:nth-child(2) {
+        font-weight: 300;
+        margin-top: -5px;
+    }
+}
+
+#hero-2 {
+    background-image: url("../img/hero/hero-2.jpg");
+    background-size: cover;
+    background-position: center bottom;
+    height: 40vh;
+}

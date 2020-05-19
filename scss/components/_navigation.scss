@@ -1,0 +1,18 @@
+/* =============
+    Navigation
+============= */
+
+
+
+.primaryLink:link,
+.primaryLink:visited {
+    background-color: $burntYellow;
+    padding: 10px;
+    color: $white;
+    display: inline-block;
+    margin-top: 10px;
+}
+
+.primaryLink:hover, .primaryLink:active{
+    background-color: $black;
+}

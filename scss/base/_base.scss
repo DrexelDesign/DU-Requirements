@@ -1,0 +1,15 @@
+/* =============
+    Base
+============= */
+
+a:link,a:visited{
+    transition: 0.25s;
+    text-decoration: none;
+    color: $burntYellow;
+}
+
+ul{
+    li{
+        list-style: none;
+    }
+}

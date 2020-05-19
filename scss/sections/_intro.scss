@@ -1,0 +1,66 @@
+/* =============
+    Intro
+============= */
+#intro {
+    display: grid;
+    grid-template-columns: 10px auto 10px;
+    grid-template-areas: ". intro-content .";
+    padding: 50px 0;
+    @include md {
+        grid-template-columns: auto 80% auto;
+    }
+    @include xl {
+        grid-template-columns: auto 1200px auto;
+    }
+
+    > div {
+        grid-area: intro-content;
+        @include xl {
+            display: grid;
+            grid-template-columns: auto 70% auto;
+            grid-template-areas: ". xl-intro-content .";
+        }
+
+        > section {
+            grid-area: xl-intro-content;
+
+            h1 {
+                font-weight: 300;
+                font-size: rem-calc(35);
+                margin-bottom: 10px;
+                color: $turquoise;
+            }
+
+            p {
+                margin-bottom: 10px;
+                @include lg {
+                    margin-bottom: 30px;
+                }
+            }
+
+            article {
+                margin-top: 20px;
+                background-color: $platinum;
+                padding: 10px;
+                border-radius: rem-calc(2);
+                @include md {
+                    margin: 0 5%;
+                    padding: 20px 0;
+                    display: grid;
+                    grid-template-columns: auto 85% auto;
+                    grid-template-areas: ". info-callout .";
+                }
+
+                p {
+                    margin-bottom: 0;
+                    grid-area: info-callout;
+                    font-weight: 300;
+                    font-size: rem-calc(18);
+                    @include md {
+                        line-height: rem-calc(26);
+                    }
+                }
+            }
+        }
+    }
+}
