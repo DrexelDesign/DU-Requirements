@@ -119,6 +119,11 @@
                         @include lg{
                             padding: 20px;
                         }
+
+                        h3{
+                            color: $black;
+                            margin-bottom: 10px;
+                        }
                     }
                 }
             }

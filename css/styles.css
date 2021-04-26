@@ -447,7 +447,6 @@ textarea {
           @media (min-width: 768px) {
             #intro > div > section article p {
               line-height: 1.625rem; } }
-
 /* =============
     Requirements
 ============= */
@@ -535,6 +534,9 @@ textarea {
           @media (min-width: 992px) {
             #requirements div article .mac #faculty-pick > div {
               padding: 20px; } }
+          #requirements div article .mac #faculty-pick > div h3 {
+            color: #000;
+            margin-bottom: 10px; }
     #requirements div #mac-15 {
       background-color: #F7FBFA;
       padding: 20px 10px;
@@ -665,7 +667,6 @@ textarea {
       @media (min-width: 768px) {
         #ipad-camera > div #camera {
           margin-top: 0; } }
-
 /* =============
     Software
 ============= */
@@ -742,7 +743,6 @@ textarea {
     @media (min-width: 768px) {
       #software > div #other-software {
         grid-area: other; } }
-
 /* =============
     Kit
 ============= */
